@@ -3,7 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.5.33414.496
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P01StoredProcedures", "P01StoredProcedures\P01StoredProcedures.csproj", "{1EFE611F-2620-49E5-B4D3-F47C543E2347}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "P01StoredProcedures", "P01StoredProcedures\P01StoredProcedures.csproj", "{1EFE611F-2620-49E5-B4D3-F47C543E2347}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P02UploadAndDownloadBlobs", "P02UploadAndDownloadBlobs\P02UploadAndDownloadBlobs.csproj", "{819BDAA3-2710-448E-8680-A90E94598A5E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P03AzureTableStorage", "P03AzureTableStorage\P03AzureTableStorage.csproj", "{7176DCE8-9C08-4A45-82EC-3DD75A4DA5A6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "P04FileStorage", "P04FileStorage\P04FileStorage.csproj", "{C00E49D8-1D37-4110-8705-3006F8181549}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +21,18 @@ Global
 		{1EFE611F-2620-49E5-B4D3-F47C543E2347}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1EFE611F-2620-49E5-B4D3-F47C543E2347}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1EFE611F-2620-49E5-B4D3-F47C543E2347}.Release|Any CPU.Build.0 = Release|Any CPU
+		{819BDAA3-2710-448E-8680-A90E94598A5E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{819BDAA3-2710-448E-8680-A90E94598A5E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{819BDAA3-2710-448E-8680-A90E94598A5E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{819BDAA3-2710-448E-8680-A90E94598A5E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7176DCE8-9C08-4A45-82EC-3DD75A4DA5A6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7176DCE8-9C08-4A45-82EC-3DD75A4DA5A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7176DCE8-9C08-4A45-82EC-3DD75A4DA5A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7176DCE8-9C08-4A45-82EC-3DD75A4DA5A6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C00E49D8-1D37-4110-8705-3006F8181549}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C00E49D8-1D37-4110-8705-3006F8181549}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C00E49D8-1D37-4110-8705-3006F8181549}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C00E49D8-1D37-4110-8705-3006F8181549}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
